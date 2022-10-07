@@ -15,7 +15,6 @@ test('creates a player object', () => {
     expect(player.inventory).toEqual(expect.arrayContaining([expect.any(Object)]));
 });
 
-<<<<<<< HEAD
 test("gets player's stats as an object", () => {
     const player = new Player('Dave');
 
@@ -33,7 +32,6 @@ test('gets inventory from player or returns false', () => {
     player.inventory = [];
 
     expect(player.getInventory()).toEqual(false);
-=======
 test("gets player's health value", () => {
     const player = new Player('Dave');
 
@@ -88,5 +86,4 @@ test('uses a potion from inventory', () => {
     player.usePotion(1);
 
     expect(player.inventory.length).toBeLessThan(oldCount);
->>>>>>> develop
 });
