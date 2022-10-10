@@ -18,5 +18,8 @@
   "homepage": "https://github.com/smckelli/jest-another-RPG-2#readme",
   "devDependencies": {
     "jest": "^29.1.2"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.3"
   }
 }
